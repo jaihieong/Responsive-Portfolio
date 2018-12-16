@@ -1,0 +1,334 @@
+/**universal css for all pages**/
+body
+{
+    color: #777777;
+    background-color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    
+
+}
+nav
+{   
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden red;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+
+nav ul li a 
+{    
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 5px 25px;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden black;
+    font-size: 12px;
+    color: #777777;
+}
+
+.menu
+{
+    position: relative;
+    height: 75px;
+    width: auto;
+    margin: auto;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden yellow;
+}
+
+.box {
+    /* relative positioning */
+    position: relative;
+    width: 280px;
+    height: 75px;
+    margin: 0;
+    background: #ffffff;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden blue;
+    
+}
+
+.jaian
+{
+    left: 3%;
+    width: auto;
+    float: left;
+    text-align: left;
+    font-size: 30px;
+    padding: 21px 45px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.menu_items
+{
+    position: relative;
+    right: 3%;
+    padding-top: 25px;
+    float: right;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.background
+{
+    width: 100%;
+    height: 100%;
+    padding: 1% 0%;;
+    border-top: 3px solid #cccccc;
+    background-image: url("../images/concrete.gif");
+    background-repeat: repeat;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.main_bg
+{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    border: 3px solid #dddddd;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.main_content
+{
+    margin: 15px;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden blue;
+    
+}
+
+
+.pagename
+{
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #666666;
+    color: #4aaaa5;
+    
+}
+.profile_photo
+{
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 3px;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden yellowgreen;
+    margin-right: 15px;
+    
+}
+.intro_paragraphs
+{
+    clear: right;
+}
+#footer
+{
+    background-color: #666666;
+    border-top: 3px solid #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/**additional styling for "portfolio" page**/
+.porfolio_img
+{
+    padding: 3%;
+    /**Border property kept but hidden for future maintenance**/
+    border: 1px hidden green;
+    width: 45%;
+    
+}
+
+/**Media Queries for Assignment 2**/
+
+@media only screen and (min-width: 375px)
+{
+    body 
+    {
+        /**Border property kept but hidden for future maintenance**/
+        /**
+        background-color: yellow;
+        **/
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .menu
+    {
+        width: auto;
+        margin: auto;
+        
+        
+    }
+
+    .background
+    {
+        width: auto;
+    }
+
+    .main_bg
+    {
+        width: 345px;
+    }
+
+    .main_content
+    {
+        width: 95%;
+    }
+
+    .profile_photo
+    {
+        width: 95%;
+    }
+
+    .porfolio_img
+    {
+        /**Border property kept but hidden for future maintenance**/
+        border: 1px hidden green;
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 640px) 
+{
+    body 
+    {
+        /**Border property kept but hidden for future maintenance**/
+        /**
+        background-color: lightblue;
+        **/
+    }
+
+    .menu
+    {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background
+    {
+        width: auto;
+    }
+
+    .main_bg
+    {
+        width: 600px;
+    }
+
+    .main_content
+    {
+        width: 95%;
+    }
+
+    .profile_photo
+    {
+        width: 95%;
+    }
+    
+} 
+
+
+
+@media only screen and (min-width: 768px) 
+{
+    body 
+    {
+        /**Border property kept but hidden for future maintenance**/
+        /**
+        background-color: red;
+        **/
+    }
+    .menu
+    {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background
+    {
+        width: auto;
+    }
+
+    .main_bg
+    {
+        width: 730px;
+    }
+
+    .main_content
+    {
+        width: 95%;
+    }
+
+    .profile_photo
+    {
+        width: 50%;
+    }
+    
+    .porfolio_img
+    {
+        /**Border property kept but hidden for future maintenance**/
+        border: 1px hidden green;
+        width: 40%;
+    }
+    
+}
+
+@media only screen and (min-width: 980px) 
+{
+    body 
+    {
+        /**Border property kept but hidden for future maintenance**/
+        /**
+        background-color: green;
+        **/ 
+    }
+
+    .menu
+    {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background
+    {
+        width: auto;
+    }
+
+    .main_bg
+    {
+        width: 940px;
+    }
+
+    .main_content
+    {
+        width: 95%;
+    }
+
+    .profile_photo
+    {
+        width: 25%;
+    }
+}
