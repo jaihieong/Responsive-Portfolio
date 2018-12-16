@@ -175,8 +175,8 @@ nav ul li a
     .menu
     {
         width: auto;
-        margin: auto;
-        
+        padding: 0;
+        margin: 0;
         
     }
 
@@ -187,7 +187,7 @@ nav ul li a
 
     .main_bg
     {
-        width: 345px;
+        width: 370px;
     }
 
     .main_content
